@@ -1,198 +1,289 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Mahmoud Maher El-Said | AI Student</title>
-
-<meta 
- name="description" 
- content="Portfolio of Mahmoud Maher El-Said, an AI student specializing in Intelligent Systems, Computer Vision, and Reinforcement Learning." 
-/>
-
+  <title>Mahmoud Maher El-Said | AI Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio of Mahmoud Maher El-Said, an Artificial Intelligence student specializing in Intelligent Systems, Computer Vision, Reinforcement Learning, and Data Science."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <header class="navbar">
     <div class="container nav-content">
       <a href="#home" class="logo">Mahmoud<span>.</span></a>
 
-```
-  <nav class="nav-links">
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</div>
-```
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
+      <nav class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <!-- Home Section -->
+    <!-- HERO -->
     <section id="home" class="hero">
       <div class="container hero-grid">
-        <div>
-          <span class="badge">AI Student • Intelligent Systems</span>
+        <div class="hero-text reveal">
+          <span class="badge">AI Student • Intelligent Systems • Applied AI Portfolio</span>
 
-```
-      <h1>Mahmoud Maher <span>El-Said</span></h1>
+          <h1>
+            Mahmoud Maher <span>El-Said</span>
+          </h1>
 
-      <p>
-        I am an Artificial Intelligence student specializing in Intelligent Systems.
-        I build applied projects in Computer Vision, Reinforcement Learning,
-        Medical Image Analysis, and Data Science.
-      </p>
+          <p class="hero-description">
+            I am an Artificial Intelligence student specializing in Intelligent Systems.
+            I build practical projects in Computer Vision, Reinforcement Learning,
+            Machine Learning, and Data Analysis, with a strong focus on building a
+            professional portfolio for internships, junior AI roles, and remote opportunities.
+          </p>
 
-      <div class="hero-buttons">
-        <a class="btn btn-primary" href="#projects">View Projects</a>
-        <a class="btn btn-secondary" href="mailto:mahmoud.maher.elsaid@outlook.com">Contact Me</a>
-        <a class="btn btn-secondary" href="https://www.linkedin.com/in/mahmoud-maher-elsaid/" target="_blank">LinkedIn</a>
-        <a class="btn btn-secondary" href="https://github.com/Mahmoud-Maher-Elsaid" target="_blank">GitHub</a>
-        <a class="btn btn-secondary" href="https://www.kaggle.com/mahmoedmaher" target="_blank">Kaggle</a>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="Mahmoud_Maher_El-Said_CV.pdf" target="_blank">Download CV</a>
+            <a class="btn btn-secondary" href="mailto:mahmoud.maher.elsaid@outlook.com">Email Me</a>
+          </div>
+
+          <div class="hero-links">
+            <a href="https://www.linkedin.com/in/mahmoud-maher-elsaid/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Mahmoud-Maher-Elsaid" target="_blank">GitHub</a>
+            <a href="https://www.kaggle.com/mahmoudmaherelsaid" target="_blank">Kaggle</a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="profile-circle">MM</div>
+          <h3>Applied AI Portfolio</h3>
+          <p>Computer Vision • Reinforcement Learning • Data Science</p>
+
+          <div class="hero-stats">
+            <div class="stat-box">
+              <h4>Focus</h4>
+              <span>AI / ML / CV</span>
+            </div>
+            <div class="stat-box">
+              <h4>Academic Track</h4>
+              <span>Intelligent Systems</span>
+            </div>
+            <div class="stat-box">
+              <h4>Goal</h4>
+              <span>Internships & Junior Roles</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="profile-card">
-      <div class="profile-circle">MM</div>
-      <h3>Applied AI Portfolio</h3>
-      <p>Computer Vision • Reinforcement Learning • Data Science</p>
-    </div>
-  </div>
-</section>
-
-<!-- About Section -->
-<section id="about" class="section">
-  <div class="container">
-    <h2 class="section-title">About Me</h2>
-
-    <p class="section-subtitle">
-      I am an Artificial Intelligence student at the Arab Academy for Science,
-      Technology and Maritime Transport, specializing in Intelligent Systems.
-      My current focus is building a strong portfolio for remote internships,
-      AI/data roles, and junior applied machine learning opportunities.
-    </p>
-  </div>
-</section>
-
-<!-- Projects Section -->
-<section id="projects" class="section">
-  <div class="container">
-    <h2 class="section-title">Featured Projects</h2>
-
-    <p class="section-subtitle">
-      These are the strongest projects I am organizing into a professional portfolio.
-    </p>
-
-    <div class="cards">
-      <article class="card">
-        <h3>Skin Lesion Segmentation and Localization</h3>
-
-        <p>
-          Medical computer vision project using U-Net and Faster R-CNN for lesion
-          segmentation and localization on skin lesion images.
-        </p>
-
-        <div class="tags">
-          <span class="tag">Computer Vision</span>
-          <span class="tag">U-Net</span>
-          <span class="tag">Faster R-CNN</span>
-          <span class="tag">Medical AI</span>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            A concise overview of my academic background, interests, and career direction.
+          </p>
         </div>
-      </article>
 
-      <article class="card">
-        <h3>Reinforcement Learning GridWorld with Webots</h3>
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <h3>Background</h3>
+            <p>
+              I am an Artificial Intelligence student at the Arab Academy for Science,
+              Technology and Maritime Transport (AAST), specializing in Intelligent Systems.
+              My interests include machine learning, computer vision, reinforcement learning,
+              and intelligent applications that solve practical problems.
+            </p>
+          </div>
 
-        <p>
-          Reinforcement learning simulation comparing Q-Learning, SARSA, and
-          First-Visit Monte Carlo in a GridWorld environment integrated with Webots.
-        </p>
+          <div class="about-card reveal">
+            <h3>What I Work On</h3>
+            <p>
+              I enjoy building applied technical projects such as medical image analysis,
+              classical and deep computer vision pipelines, reinforcement learning environments,
+              and data-driven problem solving using Python and modern AI tools.
+            </p>
+          </div>
 
-        <div class="tags">
-          <span class="tag">Reinforcement Learning</span>
-          <span class="tag">Webots</span>
-          <span class="tag">Q-Learning</span>
-          <span class="tag">SARSA</span>
+          <div class="about-card reveal">
+            <h3>Current Goal</h3>
+            <p>
+              I am currently building a strong professional portfolio for remote internships,
+              freelance opportunities, and entry-level roles in Artificial Intelligence,
+              Machine Learning, Data Science, and Computer Vision.
+            </p>
+          </div>
         </div>
-      </article>
-
-      <article class="card">
-        <h3>Sudoku Solver from Camera</h3>
-
-        <p>
-          End-to-end computer vision pipeline that detects a Sudoku board from an
-          image, extracts cells, recognizes digits, solves the puzzle, and visualizes
-          the result.
-        </p>
-
-        <div class="tags">
-          <span class="tag">OpenCV</span>
-          <span class="tag">Image Processing</span>
-          <span class="tag">SVM</span>
-          <span class="tag">Backtracking</span>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- Skills Section -->
-<section id="skills" class="section">
-  <div class="container">
-    <h2 class="section-title">Skills</h2>
-
-    <p class="section-subtitle">
-      Core tools and topics I use in academic and applied AI projects.
-    </p>
-
-    <div class="skills-grid">
-      <div class="skill">Python</div>
-      <div class="skill">Machine Learning</div>
-      <div class="skill">Deep Learning</div>
-      <div class="skill">Computer Vision</div>
-      <div class="skill">Reinforcement Learning</div>
-      <div class="skill">OpenCV</div>
-      <div class="skill">TensorFlow</div>
-      <div class="skill">PyTorch</div>
-      <div class="skill">Pandas</div>
-      <div class="skill">NumPy</div>
-      <div class="skill">Matplotlib</div>
-      <div class="skill">scikit-learn</div>
-      <div class="skill">Webots</div>
-      <div class="skill">Arduino Basics</div>
-      <div class="skill">HTML/CSS/JavaScript</div>
-      <div class="skill">GitHub</div>
-    </div>
-  </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="section">
-  <div class="container">
-    <div class="contact-box">
-      <h2 class="section-title">Contact</h2>
-
-      <p>
-        I am currently preparing my portfolio for remote internships, AI/data roles,
-        and junior applied machine learning opportunities.
-      </p>
-
-      <div class="hero-buttons">
-        <a class="btn btn-primary" href="mailto:mahmoud.maher.elsaid@outlook.com">Email Me</a>
-        <a class="btn btn-secondary" href="https://www.linkedin.com/in/mahmoud-maher-elsaid/" target="_blank">LinkedIn Profile</a>
-        <a class="btn btn-secondary" href="https://github.com/Mahmoud-Maher-Elsaid" target="_blank">GitHub Profile</a>
-        <a class="btn btn-secondary" href="https://www.kaggle.com/mahmoedmaher" target="_blank">Kaggle Profile</a>
       </div>
-    </div>
-  </div>
-</section>
-```
+    </section>
 
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            A selected set of projects that represent my strongest practical work.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <h3>Skin Lesion Segmentation and Localization</h3>
+            <p>
+              A medical computer vision project focused on lesion segmentation and localization
+              using deep learning approaches such as U-Net and detection-based methods for
+              analyzing skin lesion images.
+            </p>
+            <div class="tags">
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Medical AI</span>
+              <span class="tag">U-Net</span>
+              <span class="tag">Image Segmentation</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Reinforcement Learning GridWorld with Webots</h3>
+            <p>
+              A reinforcement learning project that compares Q-Learning, SARSA, and
+              First-Visit Monte Carlo in a GridWorld environment, with simulation and
+              experimentation integrated using Webots.
+            </p>
+            <div class="tags">
+              <span class="tag">Reinforcement Learning</span>
+              <span class="tag">Webots</span>
+              <span class="tag">Q-Learning</span>
+              <span class="tag">SARSA</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Sudoku Solver from Camera</h3>
+            <p>
+              An end-to-end computer vision pipeline that detects a Sudoku grid from an image,
+              extracts cells, recognizes digits, solves the puzzle, and visualizes the final result.
+            </p>
+            <div class="tags">
+              <span class="tag">OpenCV</span>
+              <span class="tag">Image Processing</span>
+              <span class="tag">Digit Recognition</span>
+              <span class="tag">Python</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Financial Report RAG Assistant</h3>
+            <p>
+              A retrieval-augmented generation project designed to answer questions from
+              financial reports using document chunking, embeddings, vector search, and
+              grounded response generation.
+            </p>
+            <div class="tags">
+              <span class="tag">RAG</span>
+              <span class="tag">NLP</span>
+              <span class="tag">ChromaDB</span>
+              <span class="tag">LLM Applications</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">
+            Core technical tools, libraries, and focus areas used in my projects.
+          </p>
+        </div>
+
+        <div class="skills-wrapper">
+          <div class="skills-column reveal">
+            <h3>Programming & Tools</h3>
+            <div class="skills-grid">
+              <div class="skill">Python</div>
+              <div class="skill">Git & GitHub</div>
+              <div class="skill">Jupyter Notebook</div>
+              <div class="skill">HTML / CSS / JavaScript</div>
+              <div class="skill">Webots</div>
+            </div>
+          </div>
+
+          <div class="skills-column reveal">
+            <h3>AI & Data</h3>
+            <div class="skills-grid">
+              <div class="skill">Machine Learning</div>
+              <div class="skill">Deep Learning</div>
+              <div class="skill">Data Analysis</div>
+              <div class="skill">Data Visualization</div>
+              <div class="skill">Reinforcement Learning</div>
+            </div>
+          </div>
+
+          <div class="skills-column reveal">
+            <h3>Libraries & Frameworks</h3>
+            <div class="skills-grid">
+              <div class="skill">NumPy</div>
+              <div class="skill">Pandas</div>
+              <div class="skill">Matplotlib</div>
+              <div class="skill">scikit-learn</div>
+              <div class="skill">OpenCV</div>
+              <div class="skill">TensorFlow</div>
+              <div class="skill">PyTorch</div>
+            </div>
+          </div>
+
+          <div class="skills-column reveal">
+            <h3>Specialized Areas</h3>
+            <div class="skills-grid">
+              <div class="skill">Computer Vision</div>
+              <div class="skill">Image Processing</div>
+              <div class="skill">Medical Image Analysis</div>
+              <div class="skill">Intelligent Systems</div>
+              <div class="skill">Applied AI Projects</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-dark">
+      <div class="container">
+        <div class="contact-box reveal">
+          <h2 class="section-title">Contact</h2>
+          <p>
+            I am currently open to internships, entry-level AI/Data roles, and remote
+            opportunities. Feel free to reach out through email or professional platforms.
+          </p>
+
+          <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:mahmoud.maher.elsaid@outlook.com">mahmoud.maher.elsaid@outlook.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mahmoud-maher-elsaid/" target="_blank">linkedin.com/in/mahmoud-maher-elsaid</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/Mahmoud-Maher-Elsaid" target="_blank">github.com/Mahmoud-Maher-Elsaid</a></p>
+            <p><strong>Kaggle:</strong> <a href="https://www.kaggle.com/mahmoudmaherelsaid" target="_blank">kaggle.com/mahmoudmaherelsaid</a></p>
+          </div>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="mailto:mahmoud.maher.elsaid@outlook.com">Email Me</a>
+            <a class="btn btn-secondary" href="Mahmoud_Maher_El-Said_CV.pdf" target="_blank">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
@@ -202,6 +293,5 @@
   </footer>
 
   <script src="script.js"></script>
-
 </body>
 </html>
