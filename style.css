@@ -393,6 +393,10 @@ img {
   margin-bottom: 1rem;
 }
 
+.card-actions {
+  margin-top: 1.2rem;
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
